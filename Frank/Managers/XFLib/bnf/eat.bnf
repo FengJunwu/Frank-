@@ -1,0 +1,33 @@
+#BNF+IAT 1.0 UTF-8;
+!grammar main;
+
+
+!slot <cloudOffice>;
+!slot <CNCBrain>;
+!slot <vehicle>;
+!slot <information>;
+!slot <moment>;
+!slot <enough>;
+!slot <devices>;
+
+!start <operation>;
+<operation>:<smartPark>|<cloudOffice>|<CNCBrain>|<vehicle>|<information>|<moment>|<enough>;
+
+
+<smartPark>:how are you!id(10000);
+
+<cloudOffice>:come!id(20000)|get!id(20000)|closer!id(20000);
+
+<CNCBrain>:suck!id(30000);
+
+<vehicle>:speed!id(40000)|up!id(40000)|go!id(40000)|faster!id(40000);
+
+
+<information>:easy!id(50000)|girl!id(50000)|slow!id(50000)|down!id(50000);
+
+
+<moment>:wait!id(70000)|a!id(70000)|moment!id(70000)|give!id(70000)|me!id(70000)|a!id(70000)|break!id(70000);
+
+<enough>:that!id(80000)|is!id(80000)|enough!id(80000)|it!id(80000)|is!id(80000)|ok!id(80000);
+
+

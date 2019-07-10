@@ -1,0 +1,46 @@
+//
+//  PrefixHeader.pch
+//  Frank
+//
+//  Created by fengjunwu on 2019/6/1.
+//  Copyright © 2019 819134700@qq.com. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "URLDefines.h"
+#import "UserDefaultDefines.h"
+#import "Adaption.h"
+
+#import "XLSlideMenu.h"
+#import <YYKit.h>
+#import <SDCycleScrollView.h>
+#import "HYBNetworking.h"
+#import "BGFMDB.h"
+#import <SDAutoLayout/SDAutoLayout.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <CoreBluetooth/CoreBluetooth.h>
+#import <BabyBluetooth.h>
+
+
+
+//#import <SSZipArchive.h>
+//#import "ArchiveManager.h"
+
+
+#define APPID_VALUE           @"5d13675e"
+#define URL_VALUE             @""                 // url
+#define TIMEOUT_VALUE         @"20000"            // timeout, Unit:ms
+#define BEST_URL_VALUE        @"1"                // best_search_url
+
+#define SEARCH_AREA_VALUE     @"Hefei,Anhui"
+#define ASR_PTT_VALUE         @"1"
+#define VAD_BOS_VALUE         @"5000"
+#define VAD_EOS_VALUE         @"1800"
+#define PLAIN_RESULT_VALUE    @"1"
+#define ASR_SCH_VALUE         @"1"
+
+#endif /* PrefixHeader_pch */

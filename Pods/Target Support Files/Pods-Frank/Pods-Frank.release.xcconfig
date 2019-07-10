@@ -1,0 +1,11 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/YYKit/Vendor"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/BabyBluetooth" "${PODS_ROOT}/Headers/Public/JRSwizzle" "${PODS_ROOT}/Headers/Public/MBProgressHUD" "${PODS_ROOT}/Headers/Public/RTRootNavigationController" "${PODS_ROOT}/Headers/Public/SDAutoLayout" "${PODS_ROOT}/Headers/Public/SDCycleScrollView" "${PODS_ROOT}/Headers/Public/SDWebImage" "${PODS_ROOT}/Headers/Public/SSZipArchive" "${PODS_ROOT}/Headers/Public/YYKit"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/BabyBluetooth" "${PODS_CONFIGURATION_BUILD_DIR}/JRSwizzle" "${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD" "${PODS_CONFIGURATION_BUILD_DIR}/RTRootNavigationController" "${PODS_CONFIGURATION_BUILD_DIR}/SDAutoLayout" "${PODS_CONFIGURATION_BUILD_DIR}/SDCycleScrollView" "${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage" "${PODS_CONFIGURATION_BUILD_DIR}/SSZipArchive" "${PODS_CONFIGURATION_BUILD_DIR}/YYKit"
+OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_ROOT}/Headers/Public/SSZipArchive/SSZipArchive.modulemap"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"BabyBluetooth" -l"JRSwizzle" -l"MBProgressHUD" -l"RTRootNavigationController" -l"SDAutoLayout" -l"SDCycleScrollView" -l"SDWebImage" -l"SSZipArchive" -l"YYKit" -l"iconv" -l"sqlite3" -l"z" -framework "Accelerate" -framework "AssetsLibrary" -framework "CoreFoundation" -framework "CoreGraphics" -framework "CoreImage" -framework "CoreText" -framework "Foundation" -framework "ImageIO" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "WebP"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/SSZipArchive/SSZipArchive.modulemap"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
