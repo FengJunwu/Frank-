@@ -94,6 +94,7 @@
 		EDF53BDA22C732B500BF4D1B /* UIView+BLLandscape.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF53BD722C732B400BF4D1B /* UIView+BLLandscape.m */; };
 		EDF53BDB22C732B500BF4D1B /* UIViewController+Landscape.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF53BD822C732B400BF4D1B /* UIViewController+Landscape.m */; };
 		F39DE27722C1C8930034FACD /* VoiceChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39DE27622C1C8930034FACD /* VoiceChatViewController.m */; };
+		F3D2098722D5B2B700DF566E /* common.jet in Resources */ = {isa = PBXBuildFile; fileRef = F3D2098622D5B2B700DF566E /* common.jet */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -274,6 +275,7 @@
 		EDF53BD822C732B400BF4D1B /* UIViewController+Landscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Landscape.m"; sourceTree = "<group>"; };
 		F39DE27522C1C8930034FACD /* VoiceChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoiceChatViewController.h; sourceTree = "<group>"; };
 		F39DE27622C1C8930034FACD /* VoiceChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceChatViewController.m; sourceTree = "<group>"; };
+		F3D2098622D5B2B700DF566E /* common.jet */ = {isa = PBXFileReference; lastKnownFileType = file; path = common.jet; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -704,6 +706,7 @@
 		EDD0F31C22C3A81300BFAF38 /* aitalk */ = {
 			isa = PBXGroup;
 			children = (
+				F3D2098622D5B2B700DF566E /* common.jet */,
 			);
 			path = aitalk;
 			sourceTree = "<group>";
@@ -971,6 +974,7 @@
 				EDD0F32122C3A81300BFAF38 /* eat.bnf in Resources */,
 				EDD0F32022C3A81300BFAF38 /* call.bnf in Resources */,
 				EDC5F1C922A267160067DA6A /* 闪屏.mp4 in Resources */,
+				F3D2098722D5B2B700DF566E /* common.jet in Resources */,
 				EDC5F17522A20E800067DA6A /* Assets.xcassets in Resources */,
 				EDF53BCA22C66D5500BF4D1B /* google-help-vr.mp4 in Resources */,
 				EDE4583422BD33940082FAAA /* Info.plist in Resources */,
@@ -1235,7 +1239,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D7VGB8UFX4;
+				DEVELOPMENT_TEAM = CSA2CDU2C9;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1262,7 +1266,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = D7VGB8UFX4;
+				DEVELOPMENT_TEAM = CSA2CDU2C9;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

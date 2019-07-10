@@ -3,17 +3,5 @@
 !slot <command>;
 !start <callStart>;
 <callStart>:<command>;
-<command>:"Hi Alice"|"How are you"|"Good bye"|"Hi bella";
+<command>:"Hi Alice"|"How are you"|"Good bye"|"Hi bella"|"Alice"|"Bella";
 
-!slot <momentmoment>;
-!slot <enoughenough>;
-!slot <beybey>;
-|<refresh>|<momentmoment>|<enoughenough>|<beybey>
-
-<refresh>:it's coming!id(60000)|it's!id(60000)|coming!id(60000)|come on bady!id(60000)|come!id(60000)|on!id(60000)|bady!id(60000);
-
-<momentmoment>:wait a moment!id(70000)|wait!id(70000)|moment!id(70000)|give me a break!id(70000)|give!id(70000)|me!id(70000)|break!id(70000);
-
-<enoughenough>:that's enough!id(80000)|that's!id(80000)|enough!id(80000)|it's OK!id(80000)|it's!id(80000)|OK!id(80000);
-
-<beybey>:bey bey!id(90000)|sey you!id(90000);

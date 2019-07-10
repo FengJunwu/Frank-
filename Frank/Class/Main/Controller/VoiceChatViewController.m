@@ -549,6 +549,8 @@
 {
     NSLog(@"%s",__func__);
     
+    [self voiceButAction:nil];
+    
     if (error.errorCode == 0 ) {
         NSLog(@"没有错误");
         
